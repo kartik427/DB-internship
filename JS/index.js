@@ -167,22 +167,29 @@ console.log('ok');
 // pending
 
 
-function func1(){
-    return new Promise(function(resolve,reject){
-        setTimeout(()=>{I
-            const error=true;
-            if(error){
-    })
-})
-                console.log('Function:Your promise has been resolved')
-                resolve();
-            }
-            else{
-                console.log('Function:Your promise has not been resolved')
-                reject('Sorry not fulfilled');
-            }
-        },2000);
-func1().then(function(){
-    console.log("Harry:Thanks for resolving")
-}).catch(function(error){
-    console.log("Harry:Very bad bro.Reason:"+error)
+// function func1(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(()=>{I
+//             const error=true;
+//             if(error){
+//     })
+// })
+//                 console.log('Function:Your promise has been resolved')
+//                 resolve();
+//             }
+//             else{
+//                 console.log('Function:Your promise has not been resolved')
+//                 reject('Sorry not fulfilled');
+//             }
+//         },2000);
+// func1().then(function(){
+//     console.log("Harry:Thanks for resolving")
+// }).catch(function(error){
+//     console.log("Harry:Very bad bro.Reason:"+error)
+// let n=1;
+// for(let i=0;i<100;i++)
+// {
+// setTimeout(()=>{
+//     console.log("kartik");
+// },2000)
+// }

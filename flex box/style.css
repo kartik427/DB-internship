@@ -1,0 +1,57 @@
+section{
+    width: 100%;
+    background:cyan;
+     /* display: flex; it aligns all the boxes horizontally */
+     /* flex-direction: row-reverse; */
+     /* flex-direction: row; */
+     /* flex-direction: column; */
+     /* justify-content: space-between; */
+     /* align-items: center; it make the box to takes the space only that which is required */
+}
+section div{
+    /* width: 20%; */
+    flex-basis: 30%; /*works as width*/
+    padding: 20px;
+    border: 1px solid black;   
+   }
+   
+
+.flex1{
+    /* flex:1;  uesd to incerse orr decrease the size of the box */
+    background-color: red;   
+}
+.flex2{
+    /* flex:1; */
+    background-color: greenyellow
+
+   
+}
+.flex3{
+    /* flex:1; */
+    background-color: crimson;
+}
+
+
+
+*{
+    margin: 10; 
+    padding: 10;
+    /* /* box-sizing: border-box;  */
+}
+
+
+/* // for responsive  */
+
+@media(min-width:900px)
+{
+    section{
+        /* width: 100%; */
+        /* background:cyan; */
+         display: flex; /*it aligns all the boxes horizontally */
+         /* flex-direction: row-reverse; */
+         /* flex-direction: row; */
+         /* flex-direction: column; */
+         justify-content : space-between;
+         /* align-items: center; it make the box to takes the space only that which is required */
+    }
+}
